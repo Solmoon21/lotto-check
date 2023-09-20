@@ -1,0 +1,93 @@
+.search-container{
+  background-color: #49DCB1;
+}
+
+.search {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.searchInputs {
+    margin-top: 105px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  
+.search input {
+  background-color: #B8B206;
+  border: 0;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 15px;
+  height: 30px;
+  width: 300px;
+  color: aliceblue;
+}
+
+.searchIcon {
+  height: 60px;
+  width: 50px;
+  background-color: #B8B206;
+  display: grid;
+  place-items: center;
+}
+
+input:focus {
+  outline: none;
+}
+.searchIcon{
+  height: 30px;
+  font-size: 25px;
+}
+
+.dataResult {
+  margin-top: 5px;
+  width: 300px;
+  height: auto;
+  background-color: #B8B206;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+
+}
+  
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.dataItem span {
+  margin-left: 10px;
+  color: white;
+}
+p {
+  text-decoration: none;
+}
+
+p:hover {
+  background-color: red;
+}
+
+#clearBtn {
+  cursor: pointer;
+}
+
+.avail {
+  margin-top: 40px;
+  font-size: 30px;
+  align-items:center;
+  width: 300px;
+}
